@@ -1,5 +1,5 @@
 # person_detection_tflm
-
+The custom made dataset is composed of 25k images from COCO and OIDv4 datasets. The images from these datasets were cropped to square size depending on where the person was in the original image, using provided annotations. Cropped images were than resized to 120\*120 size and those are provided here under [person](Dataset/person_120x120) and [not_person](Dataset/not_person_120x120) directories. The [dataset_array](Dataset/dataset_array.pickle) pickle file contains gray-scale images in numpy array of shape (25000,120,120).
 ## Accuracy and loss
 <img src="https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/accuracy_128b-5e-021220210128.png" width="500"> <img src="https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/loss_128b-5e-021220210128.png" width="500">
 
