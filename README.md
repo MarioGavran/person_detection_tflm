@@ -1,8 +1,7 @@
 # person_detection_tflm
 
 ## Accuracy and loss
-![alt text](https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/accuracy_128b-5e-021220210128.png)
-![alt text](https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/loss_128b-5e-021220210128.png)
+![alt text](https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/accuracy_128b-5e-021220210128.png) ![alt text](https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/loss_128b-5e-021220210128.png)
 
 ## Examples of the dataset
 * Every image has two titles. The bottom title is the label and the top title is the result of the inference.
