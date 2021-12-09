@@ -1,6 +1,7 @@
 # person_detection_tflm
 
 ## Accuracy and loss
+<img src="https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/accuracy_128b-5e-021220210128.png" width="400">
 ![alt text](https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/accuracy_128b-5e-021220210128.png | width=400) ![alt text](https://github.com/MarioGavran/person_detection_tflm/blob/master/Training_plots/loss_128b-5e-021220210128.png)
 
 ## Examples of the dataset
