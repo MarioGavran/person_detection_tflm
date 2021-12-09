@@ -8,6 +8,6 @@
 * Every image has two titles. The bottom title is the label and the top title is the result of the inference.
 * The model shows 83% accuracy on whole dataset
 * The model shows about 75% accuracy on validation dataset that it has never seen before.
-<img src="person_detection_tflm/Figure_1/">
-<img src="person_detection_tflm/Figure_2/">
-<img src="person_detection_tflm/Figure_3/">
+<img src="person_detection_tflm/images/Figure_1">
+<img src="person_detection_tflm/images/Figure_2">
+<img src="person_detection_tflm/images/Figure_3">
