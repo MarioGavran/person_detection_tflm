@@ -39,7 +39,7 @@ def invoke_model(x_test):
     interpreter.invoke()
     output_data = interpreter.get_tensor(output_details[0]['index'])
     return output_data
-
+"""
 correct = 0
 for i in range(100):
     result = invoke_model(x[i])
@@ -47,13 +47,12 @@ for i in range(100):
         correct += 1
 
 print(correct)
-
 """
-for i, idx in enumerate(random.sample(range(22000, 25000), 25)):
+for i, idx in enumerate(random.sample(range(22000, 25000), 16)):
     result = invoke_model(x[idx])
-    plt.subplot(5, 5, i + 1)
+    plt.subplot(4, 4, i + 1)
     plt.tight_layout(pad=1)
-    plt.imshow(x[idx])
+    plt.imshow(x[idx], cmap='gray')
     plt.axis('off')
     if result[0][1] >= result[0][0]:
         title = 'human %d' % result[0][1]
@@ -68,4 +67,3 @@ for i, idx in enumerate(random.sample(range(22000, 25000), 25)):
     print(result[0])
 
 plt.show()
-"""
